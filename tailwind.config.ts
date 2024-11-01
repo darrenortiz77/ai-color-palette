@@ -8,11 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+      animation: {
+        'ellipsis': 'dotty steps(1,end) 1s infinite'
+      }
+    }
   },
   plugins: [],
 };
